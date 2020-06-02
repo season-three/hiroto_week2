@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  background: #f0ebeb;
+}
+
+.header_2 {
+  width: 100%;
+  height: 68px;
+  background: #fff;
+}
+
+#header {
+  text-align: center;
+  background: #fff;
+}
+
+.home .blog .UI_Build_Assistant {
+  margin: 0;
+}
+
+.top {
+}
+
+#content {
+  min-height: 100vh;
+}
+
+.main_right {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  margin-right: 45px;
+}
+
+.right {
+  width: 280px;
+}
+
+.main_inner {
+  margin-bottom: 17px;
+  height: 44px;
+}
+
+.main_inner ul {
+  display: flex;
+}
+
+.catul li:first-child {
+  width: 48%;
+  border-bottom: solid 3px #74c2f8;
+}
+
+.catul li:not(:first-child) {
+  width: 26%;
+}
+
+.main_top {
+  min-height: 100vh;
+}
+
+.popular {
+  height: 66px;
+  text-align: center;
+}
+
+.popular span {
+  display: inline-block;
+  font-weight: 700;
+  color: #4d4b4b;
+  display: inline-block;
+  padding: 20px;
+  letter-spacing: 0.05em;
+  font-size: 17px;
+}
+
+.clearfix.flex {
+  height: 100vh;
+}
+
+
+.ablock .popular{
+ 
+}
+
+.speciala{
+  width: 100%;
+  /* margin: 10px; */
+  margin-right: 1%;
+  margin-bottom: 17px;
+  /* margin-left: 1%; */
+  height: 233px;
+  /* padding: 10px; */
+  background: #fff;
+  height: auto;
+
+}
+
+
+
+.post-title{
+  margin: 0;
+}
+
+
+
+
+
+}
+
+.flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* サイドメニュー */
+
+.right {
+  width: 280px;
+}
+
+.ul {
+  list-style: none;
+}
+
+.footer {
+  height: 128px;
+}

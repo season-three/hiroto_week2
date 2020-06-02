@@ -1,0 +1,478 @@
+html {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  background: #f0ebeb;
+  color: #333;
+  margin: 0;
+  letter-spacing: .4px;
+  font-size: 17px;
+  line-height: 1.9;
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #f1991d;
+}
+
+
+
+/* ヘッダー */
+#header {
+  background: #fff;
+  padding: 13px 0 4px;
+  border-bottom: 1px solid #f0ebeb;
+  text-align: center;
+}
+
+
+
+
+
+
+/* div id="content" */
+body.home #content {
+  padding-top: 35px;
+}
+
+
+
+.home .wrap {
+  max-width: 1000px;
+}
+
+
+.wrap {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#main {
+  width: 100%;
+  float: left;
+}
+
+
+
+/* header */
+.main-inner {
+  margin-right: 330px;
+}
+
+#catmenu {
+  background: #fff;
+  margin: 0 .5em 1em;
+}
+
+
+#catmenu .catul li {
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  font-weight: 700;
+  color: #000;
+  height: 44px;
+  line-height: 43px;
+  vertical-align: middle;
+}
+
+
+
+#catmenu .catul ul {
+  width: 100%;
+}
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+
+/* デザイン・ウェブ制作 */
+#catmenu .catul li:first-child {
+  border-bottom: solid 3px #74c2f8;
+  width: 48%;
+}
+
+#catmenu li .fa-paint-brush {
+  color: #74c2f8;
+}
+
+
+/* 暮らし・学び */
+#catmenu .catul li:not(:first-child) {
+  border-left: solid 2px #f0ebeb;
+  width: 26%;
+}
+
+#catmenu .catul li a {
+  color: #b5b5b5;
+  display: inline-block;
+  height: 42px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* 人気記事 */
+#new-entry {
+  position: relative;
+  margin: 0 1.5%;
+}
+
+
+.ct {
+  text-align: center;
+}
+
+#new-entry:before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #000;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+#new-entry span {
+  font-weight: 700;
+  color: #4d4b4b;
+  font-family: "Avenir","Arial",sans-serif;
+  display: inline-block;
+  padding: 1em;
+  letter-spacing: .05em;
+  font-size: 17px;
+  background: #f0ebeb;
+}
+
+
+/* left page */
+.flex{
+  display: flex;
+}
+
+.post-loop-wrap .ablock {
+  width: 48%;
+  display: block;
+  padding: 10px;
+  margin: 0 1% 17px;
+  cursor: pointer;
+  background: #fff;
+  float: left;
+  position: relative;
+}
+
+.post-loop-wrap .ablock:before {
+  content: " ";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 0 4px 4px 0;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #f0ebeb;
+}
+
+.post-loop-wrap article {
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+
+.home .post-loop-wrap .ablock article .post-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.home .post-loop-wrap .post-thumbnail {
+  float: none;
+  display: block;
+}
+
+.post-loop-wrap .post-thumbnail img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home .post-loop-wrap .ablock article h2 {
+  width: 100%;
+  float: none;
+  height: auto;
+  padding: .5em 0 0;
+}
+
+.post-loop-wrap .ablock:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: -4px;
+  width: 0;
+  height: 0;
+  border-width: 0 4px 4px 0;
+  border-style: solid;
+  border-color: #f0ebeb;
+  border-bottom-color: transparent;
+}
+
+
+
+
+
+
+
+
+/* side */
+
+#side {
+  width: 290px;
+  float: left;
+  margin-left: -290px;
+}
+
+.side-widget {
+  margin-bottom: 30px;
+  padding-bottom: 0;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.side-widget-inner {
+  background: #fff;
+}
+
+.side-widget .side-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+.side-title {
+  background: #f89174;
+  color: #fff;
+  padding: 7px 15px;
+}
+
+#categories-2 h4:before {
+  font-family: FontAwesome;
+  padding-right: 8px;
+  content: "\f278";
+  padding-left: 10px;
+}
+
+.side-widget ul {
+  padding: 6px 10px 14px 25px;
+}
+
+.side-widget-inner>ul>li {
+  padding: 7px 0;
+}
+
+.side-widget-inner ul li a {
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.children {
+  padding: 0 !important;
+}
+
+.side-widget-inner ul li li:first-child {
+  padding-top: 3px;
+}
+
+.side-widget-inner ul li li a {
+  padding: 5px 0 5px 24px;
+  color: #8a8a8a;
+  position: relative;
+  font-weight: 400;
+}
+
+.side-widget-inner ul li a {
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+
+/* サルワカについて */
+.textwidget {
+  padding: 18px 10px;
+  color: #807171;
+}
+
+
+.primg {
+  width: 30%;
+  float: left;
+  border: solid 2px #f0ebeb;
+}
+
+.aut {
+  float: right;
+  width: 67%;
+  margin: 0 0 0 3%;
+}
+
+.aut dt {
+  font-weight: 700;
+}
+
+.aut dd {
+  font-size: .85em;
+}
+
+dl {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+#sssinfo {
+  color: #929292;
+  font-size: .95em;
+  border-radius: 4px;
+}
+
+.tw {
+  background: #73bcf3;
+  margin-right: 4%;
+  color: #fff;
+}
+
+.fl1 {
+  display: inline-block;
+  margin-top: 1em;
+  float: left;
+  line-height: 1.2;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2%;
+  font-weight: 700;
+  letter-spacing: .05em;
+  width: 48%;
+}
+
+.fl1 .fa {
+  font-size: 30px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sml {
+  font-size: .85em;
+}
+
+.fd {
+  background: #9ade79;
+  color: #fff;
+}
+
+.fl1 .fa {
+  font-size: 30px;
+}
+
+
+
+/* 検索 */
+#searchform {
+  overflow: hidden;
+  background: #fff;
+  padding-bottom: 0;
+  border-radius: 2px;
+}
+
+
+/* 広告 */
+.textwidget {
+  padding: 18px 10px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+
+
+
+/* footer */
+#footer {
+  color: #1e252c;
+}
+
+#footer {
+  background: #f0ebeb;
+  text-align: center;
+}
+
+#footer .hm a {
+  color: #807171;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+  .hm {
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+.footer-02 {
+  background: #fff;
+  border-top: 1px #efefef solid;
+}
+
+#footer .wrap {
+  padding: 15px 0;
+}
+
+.sml {
+  font-size: .85em;
+}
+
+.footer-02 .footer-copy {
+  text-align: center;
+  color: #807171;
+  font-size: 12px;
+}
+
+.wrap:after {
+  content: "";
+  display: block;
+  clear: both;
+}
