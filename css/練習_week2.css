@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+.container{
+  margin: 30px;
+  margin:  0 auto;            /* 中央寄せ */
+
+}
+
+
+/* .item-box{
+
+  height: 100px;
+  margin-bottom: 20px;
+
+
+}
+
+
+
+.item{
+
+display: flexbox;
+}
+
+.item1{
+ 
+  background-color: brown;
+}
+
+.item2{
+ 
+  background-color: blue;
+}
+
+.item3{
+
+  background-color: green;
+}
+
+
+.item4{
+ 
+  background-color: peru;
+} */
+
+
+.container {
+  margin: 20px;
+}
+
+.item {
+  width: 25%;
+  float: left;
+}
+
+.item-box {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.green {
+  background-color: #11D8B3;
+}
+
+.yellow {
+  background-color: #FFD466;
+}
+
+.red {
+  background-color: #ED456D;
+}
+
+.blue {
+  background-color: #3D7DD8;
+}

@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f0ebeb;
+  color: #333;
+  margin: 0;
+  letter-spacing: 0.4px;
+  font-size: 17px;
+  line-height: 1.9;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.header {
+  background-color: blue;
+}
+
+.text {
+  background-color: brown;
+  margin: 10px;
+  display: inline-block;
+}
+
+.main {
+}
+
+.footer {
+  background-color: cadetblue;
+  margin: 10px;
+}

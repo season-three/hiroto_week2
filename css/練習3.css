@@ -1,0 +1,130 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f0ebeb;
+  color: #333;
+  margin: 0;
+  letter-spacing: 0.4px;
+  font-size: 17px;
+  line-height: 1.9;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* header */
+#header {
+  background: #fff;
+  padding: 13px 0 4px;
+  border-bottom: 1px solid #f0ebeb;
+  text-align: center;
+}
+
+.home .wrap {
+  max-width: 1000px;
+}
+
+.wrap {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.h1_box {
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 200px;
+  height: 40px;
+  background-color: peru;
+  margin: auto;
+}
+
+/* 本文 */
+body.home #content {
+  padding-top: 35px;
+}
+
+#main {
+  width: 100%;
+  float: left;
+}
+
+/* catmetu */
+
+#catmenu {
+  background: #fff;
+  margin: 0 0.5em 1em;
+}
+#catmenu .catul ul {
+  width: 100%;
+  display: flex;
+}
+
+#catmenu .catul li {
+  text-align: center;
+  height: 44px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#catmenu .catul li:first-child {
+  border-bottom: solid 3px #74c2f8;
+  width: 48%;
+}
+
+#catmenu .catul li:not(:first-child) {
+  border-left: solid 2px #f0ebeb;
+  width: 26%;
+}
+
+.main-inner {
+  margin-right: 330px;
+}
+
+/* 人気記事 */
+.post-loop-wrap {
+  float: left;
+  width: 100%;
+}
+
+.ct {
+  text-align: center;
+  margin-right: 330px;
+}
+
+.flex {
+  /* float: left; */
+  display: flex;
+  width: 680px;
+  height: 400px;
+  background-color: crimson;
+}
+
+.block {
+  padding: 10px;
+  background-color: white;
+}
+
+.ablock {
+  height: 220px;
+  background-color: blue;
+  padding: 10px;
+}

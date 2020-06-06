@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  width: 800px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  height: 150px;
+}
+
+.test2 {
+}
+
+.test {
+  display: flex;
+  flex: 1;
+}
+
+main {
+  flex: 1;
+}
+
+nav {
+  width: 150px;
+}
+
+aside {
+  width: 200px;
+}
+
+footer {
+  height: 200px;
+}
+
+@media (max-width: 900px) {
+  body {
+    width: 100%;
+  }
+  .test {
+    flex-direction: column;
+  }
+  nav,
+  aside,
+  body {
+    width: 100%;
+  }
+  main {
+    order: -1;
+  }
+}
